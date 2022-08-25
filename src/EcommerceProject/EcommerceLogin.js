@@ -43,17 +43,17 @@ export default function EcommerceLogin() {
 
                 <h1>Sign In</h1>
 
-                <div className="col-auto">
+                <div className="col-auto-a">
                     <label className="col-form-label">Email</label>
                 </div>
-                <div className="col-auto">
+                <div className="col-auto-a">
                     <input type="email" className="form-control" name='email' onChange={changSet} />
                 </div>
 
-                <div className="col-auto">
+                <div className="col-auto-a">
                     <label className="col-form-label">Password</label>
                 </div>
-                <div className="col-auto">
+                <div className="col-auto-a">
                     <input type="password" className="form-control" name='password' onChange={changSet} />
                 </div>
 
