@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Noto Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.Bg{
+    background-image: url("../images/shopping-background.jpg");
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Bg::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.3;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 450px;
+    padding: 30px;
+    box-shadow: 10px 20px 40px 30px rgba(23, 24, 22, 0.648);
+}
+
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.button{
+    text-align: center;
+    background-color: rgb(60, 201, 211);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.button .bt{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+
+.row1 a{
+    text-decoration: none;
+}
