@@ -5,10 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import EcommerceRegistration from './EcommerceProject/EcommerceRegistration';
 import EcommerceLogin from './EcommerceProject/EcommerceLogin';
+import Header from './EcommerceProject/Components/Header';
+import Footer from './EcommerceProject/Components/Footer';
+import Home from './EcommerceProject/Components/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <EcommerceRegistration/>
+    <Home/>
   </React.StrictMode>
 );
 
