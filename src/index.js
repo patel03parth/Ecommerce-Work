@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import EcommerceRegistration from './EcommerceProject/EcommerceRegistration';
-import EcommerceLogin from './EcommerceProject/EcommerceLogin';
-import Header from './EcommerceProject/Components/Header';
-import Footer from './EcommerceProject/Components/Footer';
-import Home from './EcommerceProject/Components/Home';
+// import EcommerceRegistration from './EcommerceProject/EcommerceRegistration';
+// import EcommerceLogin from './EcommerceProject/EcommerceLogin';
+// import Header from './EcommerceProject/Components/Header';
+// import Footer from './EcommerceProject/Components/Footer';
+// import Home from './EcommerceProject/Components/Home';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

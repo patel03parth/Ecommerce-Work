@@ -15,8 +15,8 @@ const Footer = () => {
                         <a href="#"><i className="fa-brands fa-instagram"></i></a>
                         <a href="#"><i className="fa-brands fa-twitter"></i></a>
                         <div className="box">
-                            <input type="text" placeholder="Subscriber" />
-                            <button>Go &#8250</button>
+                            <input className='ps-2 my-3'  type="text" placeholder="Subscriber" />
+                            <button className='px-2'>Go</button>
                         </div>
                         <p>© Copyright 2025 - All Rights Reserved</p>
                     </div>

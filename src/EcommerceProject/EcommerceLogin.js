@@ -60,7 +60,7 @@ export default function EcommerceLogin() {
                 </div>
 
                 <div className='button m-5'>
-                    <button className='bt'>Login</button>
+                    <Link className='bt' to='/Home'>Login</Link>
                 </div>
 
                 <div className='row1'>

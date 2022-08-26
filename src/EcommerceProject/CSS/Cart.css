@@ -1,0 +1,49 @@
+.Cart{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    box-shadow: 2px 2px 2px 2px black;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Top{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.Bottom{
+    padding: 10px;
+    border-top: 1px solid black;
+}
+
+.Box{
+    display: flex;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Plus{
+    padding: 5px;
+    border: none;
+    background: transparent;
+    font-size: 18px;
+}
+
+.Minus{
+    padding: 5px;
+    border: none;
+    background: transparent;
+    font-size: 23px;
+}
+
+span{
+    padding: 2px 29px;
+    border: 1px solid black;
+    border-radius: 15px;
+}

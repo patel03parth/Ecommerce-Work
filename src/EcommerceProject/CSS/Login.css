@@ -45,6 +45,7 @@ h1{
     background-color: rgb(60, 201, 211);
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding: 10px;
 }
 
 .button .bt{
@@ -52,6 +53,8 @@ h1{
     border: none;
     padding: 10px;
     width: 100%;
+    text-decoration: none;
+    color: #000;
 }
 
 .row1{
