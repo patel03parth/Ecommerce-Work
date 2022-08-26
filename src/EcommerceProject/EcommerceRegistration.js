@@ -1,6 +1,7 @@
-import axios from 'axios';
 import React, { useState } from 'react';
+import axios from 'axios';
 import "./CSS/Regi.css"
+import { Link } from 'react-router-dom';
 
 export default function EcommerceRegistration() {
 
@@ -120,7 +121,7 @@ export default function EcommerceRegistration() {
                 <div className='row1'>
 
                     <p className='me-2'>Already have an Account?</p>
-                    <a href='#!'>Sign In</a>
+                    <Link to="/EcommerceLogin">Sign In</Link>
 
                 </div>
             </form>

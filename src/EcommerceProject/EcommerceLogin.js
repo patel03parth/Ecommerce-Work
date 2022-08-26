@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState } from 'react'
 import './CSS/Login.css'
+import { Link } from 'react-router-dom';
 
 export default function EcommerceLogin() {
 
@@ -20,17 +21,18 @@ export default function EcommerceLogin() {
 
         e.preventDefault();
 
-        axios.post("http://localhost:8002/api/auth/login", data,{
-        
+        axios.post("http://localhost:8002/api/auth/login", data, {
+
             headers: {
                 "Content-type": "application/json; charset=UTF-8",
-                "Authorization": `Bearer` 
-            }})
+                "Authorization": `Bearer`
+            }
+        })
             .then(y => {
 
                 console.log(y)
                 localStorage.setItem("data", JSON.stringify(y.data));
-            
+
             })
         console.log(data);
     }
@@ -63,9 +65,9 @@ export default function EcommerceLogin() {
 
                 <div className='row1'>
 
-                <p className='me-2'>Don't have Account?</p>
-                <a href='#!'>Sign Up</a>
-                    
+                    <p className='me-2'>Don't have Account?</p>
+                    <Link to="/EcommerceRegistration">Sign Up</Link>
+
                 </div>
 
             </form>
