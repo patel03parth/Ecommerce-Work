@@ -88,6 +88,7 @@ export default function EcommerceRegistration() {
                     </div>
 
                     <select className='select px-2' name='role'>
+                        <option value=''>Role</option>
                         <option value='user'>User</option>
                         <option value='seller'>Seller</option>
                     </select>
@@ -97,15 +98,15 @@ export default function EcommerceRegistration() {
                 <div className='d-flex'>
 
                     <div className="col-auto">
-                        <input type="password" className="form-control" placeholder='Phone' name='phone' onChange={changSet} />
+                        <input type="text" className="form-control" placeholder='Phone' name='phone' onChange={changSet} />
                     </div>
 
                     <div className="col-auto">
-                        <input type="password" className="form-control" name='address' placeholder='Address' onChange={changSet} />
+                        <input type="text" className="form-control" name='address' placeholder='Address' onChange={changSet} />
                     </div>
 
                     <div className="col-auto">
-                        <input type="password" className="form-control" name='companyName' placeholder='Company Name' onChange={changSet} />
+                        <input type="text" className="form-control" name='companyName' placeholder='Company Name' onChange={changSet} />
                     </div>
 
                 </div>
@@ -115,7 +116,7 @@ export default function EcommerceRegistration() {
                 </div>
 
                 <div className='button1 mx-auto my-4'>
-                    <button type="button" className='bt1'>Register</button>
+                    <button type="submit" className='bt1'>Register</button>
                 </div>
 
                 <div className='row1'>

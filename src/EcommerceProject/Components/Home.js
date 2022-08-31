@@ -3,18 +3,13 @@ import axios from 'axios'
 import Footer from './Footer'
 import Header from './Header'
 import "../CSS/Mainhome.css"
-
+import ProductsData from '../../AddToCart/Components/ProductListing'
+import ProductDetails from '../../AddToCart/Components/ProductDetails'
 const Home = () => {
-
-  const AddToCart = (myindex) => {
-   
-    
-    }
-  
 
   return (
     <div>
-      <Header />
+      <Header/>
 
       <div className='Hero' />
       <div className='Info'>
@@ -23,7 +18,10 @@ const Home = () => {
         <h4>Accessories</h4>
       </div>
 
-      <Footer />
+      <ProductsData/>
+      {/* <ProductDetails/> */}
+
+      <Footer/>
 
     </div>
   )

@@ -1,12 +1,10 @@
 .Cart{
-    position: absolute;
-    width: 800px;
-    height: 400px;
+    width: 850px;
     box-shadow: 2px 2px 2px 2px black;
     padding: 10px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: auto;
+    margin-top: 40px;
+    align-items: center;
 }
 
 .Top{
@@ -19,13 +17,41 @@
 .Bottom{
     padding: 10px;
     border-top: 1px solid black;
+    text-align: end;
 }
 
 .Box{
     display: flex;
-    padding: 20px;
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 100%;
+}
+
+.stock{
+    color: green;
+    padding: 0 10px;
+}
+
+.width{
+    width: 600px;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.title,.stock.price{
+    margin: 5px;
+    padding: 5px;
+}
+
+.Detail{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
 }
 
 .Plus{
