@@ -19,7 +19,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse justify-content-between" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item active">
-                                <a className="nav-link text-white mx-3" href="#">Home</a>
+                                <Link to='/Home' className="nav-link text-white mx-3" href="#">Home</Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-white mx-3" href="#">Benifits</a>

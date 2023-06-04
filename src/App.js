@@ -10,7 +10,7 @@ import EcommerceLogin from './EcommerceProject/EcommerceLogin';
 import Home from './EcommerceProject/Components/Home';
 import Cart from './EcommerceProject/Components/Cart';
 
-function App() {
+function App() {/*  */
 
   return (
     <div className="App">

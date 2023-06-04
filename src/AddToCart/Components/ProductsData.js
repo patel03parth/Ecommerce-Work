@@ -1,9 +1,8 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
+import { useSelector,useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom';
 import '../CSS/style.css'
 import { AddToCartData } from '../Redux/Action/ProductAction';
-import { useDispatch } from 'react-redux';
 
 const ProductsData = () => {
   const items = useSelector(y => y.products.product);
@@ -19,7 +18,7 @@ const ProductsData = () => {
   const RenderList = items.map((items) => {
     const { id, image, title, category, price, description } = items
     return (
-      <section className='Main' key={id}>
+      <section className='MAIN' key={id}>
 
         <div className='CARD' >
           <Link to={`/product/${id}`}>

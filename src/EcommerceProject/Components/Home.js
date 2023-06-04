@@ -5,11 +5,12 @@ import Header from './Header'
 import "../CSS/Mainhome.css"
 import ProductsData from '../../AddToCart/Components/ProductListing'
 import ProductDetails from '../../AddToCart/Components/ProductDetails'
+import { Divider } from 'semantic-ui-react'
 const Home = () => {
 
   return (
     <div>
-      <Header/>
+      <Header />
 
       <div className='Hero' />
       <div className='Info'>
@@ -18,10 +19,10 @@ const Home = () => {
         <h4>Accessories</h4>
       </div>
 
-      <ProductsData/>
-      {/* <ProductDetails/> */}
+        <ProductsData />
 
-      <Footer/>
+
+      <Footer />
 
     </div>
   )

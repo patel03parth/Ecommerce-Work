@@ -7,7 +7,6 @@ import ProductsData from './ProductsData';
 const ProductListing = () => {
 
     const data = useSelector((state) => state)
-    // console.log("data:" ,data);
     const myDis = useDispatch();
 
 

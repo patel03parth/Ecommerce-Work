@@ -55,21 +55,21 @@ export const ProductReducer = (state = initialState, { type, payload }) => {
   }
 }
 
-export const SelectedProductReducer = (state = {}, { type, payload }) => {
+  export const SelectedProductReducer = (state = {}, { type, payload }) => {
 
-  switch (type) {
+    switch (type) {
 
-    case Selected_Products:
-      return { ...state, ...payload }
+      case Selected_Products:
+        return { ...state, ...payload }
 
-    case RemoveSelectedProducts:
-      return {}
+      case RemoveSelectedProducts:
+        return {}
 
-    default:
-      return state
+      default:
+        return state
+    }
+
   }
-
-}
 
 
 

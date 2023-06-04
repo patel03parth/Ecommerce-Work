@@ -36,6 +36,20 @@ import { Decrement, GetData, Increment, Selected_Products,RemoveSelectedProducts
     }
   }
 
+  export const IncrementProduct = (id) => {
+    return{
+    type: AddToCart,
+    payload:id
+    }
+  }
+
+  export const DecrementProduct = (id) => {
+    return{
+    type: AddToCart,
+    payload :id
+    }
+  }
+
 
 
   
