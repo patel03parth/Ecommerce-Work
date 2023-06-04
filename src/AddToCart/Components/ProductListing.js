@@ -12,16 +12,16 @@ const ProductListing = () => {
 
     useEffect(()=> {
 
-        fetch('https://fakestoreapi.com/products')
-            .then(res=>res.json())
-            .then(y=>{
-                myDis(GetProductData(y))
-            })
+      fetch('https://fakestoreapi.com/products')
+          .then(res=>res.json())
+          .then(y=>{
+              myDis(GetProductData(y))
+          })
 
-    },[])
+  },[])
 
-  return (
-    <div>{<ProductsData/>}</div>
+return (
+  <div>{<ProductsData/>}</div>
   )
 }
 

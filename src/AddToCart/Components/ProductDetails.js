@@ -56,6 +56,7 @@ const ProductDetails = () => {
         </section>
       )}
       <Footer/>
+      {/*  */}
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useReducer, useState } from 'react'
 import axios from 'axios';
 
 export default function UsingReducer() {
-
+// 
     const myState = [];
 
     const myReducer = (state, action) => {
